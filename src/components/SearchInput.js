@@ -33,19 +33,6 @@ const SearchInput = () => {
       );
       deletedGuid = guid;
       setSuggestions(changedSuggestions);
-      //   searchHistory(searchString)
-      //     .then((searches) => {
-      //       let results = [];
-      //       if (searches.length < MAX_SUGGESTIONS) {
-      //         results = loadedTrends.slice(0, MAX_SUGGESTIONS - searches.length);
-      //       }
-      //       results = results.concat(searches);
-      //       setSuggestions(results);
-      //       //            console.log('searchHistory, setSuggestions', results);
-      //     })
-      //     .catch((error) => {
-      //       // manage error
-      //     });
     }
   };
   const selectedInputHandler = (event, guid) => {
