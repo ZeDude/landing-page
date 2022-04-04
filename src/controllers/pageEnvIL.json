@@ -1,0 +1,19 @@
+{
+    locale: 'iw-IL',
+    country: {
+        countryCode: 'IL',
+        countryName: 'Israel',
+    },
+    languages: [{
+        languageCode: 'iw',
+        languageName: 'עברית'
+        languageNameEnglish: 'Hebrew',
+        direction: 'rtl'
+    },{
+        languageCode: 'ar',
+        languageName: 'العربية'
+        languageNameEnglish: 'Arabic',
+        direction: 'rtl'
+    }]
+
+}
